@@ -86,6 +86,7 @@ def train():
 
     torch.save(net.state_dict(), model_path)
 
+    writer = SummaryWriter('SGD')
 
 if __name__ == '__main__':
     train()
