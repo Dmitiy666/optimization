@@ -10,8 +10,6 @@ import torchvision.transforms as transforms
 import torch.nn as nn
 
 
-
-from torch.utils.data import DataLoader
 # PyTorch TensorBoard support
 from torch.utils.tensorboard import SummaryWriter
 
