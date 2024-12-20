@@ -44,3 +44,38 @@ SGD может быть полезен, если данные огромны,
 Best trial: 
     Value: 0.5453125 
     Params: dropout: 0 optimizer: Adam lr: 0.003354162221602514
+
+
+# Задание №4
+
+Оптимизация модели с помощью библиотеки onnx.
+
+Необходимо конвертировать модель в onnx и сравнить производительность (скорость и точность) с model.pth.
+
+Результаты работы torch модели:
+
+Accuracy for class: plane is 54.9 %
+Accuracy for class: car   is 33.0 %
+Accuracy for class: bird  is 20.4 %
+Accuracy for class: cat   is 27.8 %
+Accuracy for class: deer  is 38.9 %
+Accuracy for class: dog   is 45.4 %
+Accuracy for class: frog  is 56.1 %
+Accuracy for class: horse is 73.7 %
+Accuracy for class: ship  is 62.3 %
+Accuracy for class: truck is 78.6 %
+Time, ms:  0.4050048828125
+
+Результат работы onnx модели:
+
+Accuracy for class: plane is 54.9 %
+Accuracy for class: car   is 33.0 %
+Accuracy for class: bird  is 20.4 %
+Accuracy for class: cat   is 27.8 %
+Accuracy for class: deer  is 38.9 %
+Accuracy for class: dog   is 45.4 %
+Accuracy for class: frog  is 56.1 %
+Accuracy for class: horse is 73.7 %
+Accuracy for class: ship  is 62.3 %
+Accuracy for class: truck is 78.6 %
+Time, ms:  0.43108396530151366

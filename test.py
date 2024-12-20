@@ -3,12 +3,13 @@ import time
 
 import torch
 import torchvision
+import numpy as np
 import torchvision.transforms as transforms
 
 from model import build_model
 from model import classes
 
-model_path = 'models/cifar_weights.pth'
+model_path = 'models/cifar_model.pth'
 
 batch_size = 4
 
@@ -55,7 +56,7 @@ def test():
         accuracy = 100 * float(correct_count) / total_pred[classname]
         print(f'Accuracy for class: {classname:5s} is {accuracy:.1f} %')
 
-    print('Time, ms: ', time_pred)
+    print('Time, ms: ', np.mean(time_pred))
 
 
 if __name__ == '__main__':
