@@ -30,18 +30,3 @@ RMSProp может быть предпочтительнее в следующи
 SGD может быть полезен, если данные огромны,
 а время вычислений является важным фактором, 
 так как он лучше обобщает данные за счёт низкой скорости вычислений
-
-Задание №3
-Оптимизация гиперпараметров с помощью optune.
-
-Датасет FashionMnist был заменен на датасет CIFAR-10
-
-Вывод консоли:
-
-Study statistics: 
-Number of finished trials: 47 
-Number of pruned trials: 29 
-Number of complete trials: 18 
-Best trial: 
-Value: 0.5453125 
-Params: dropout: 0 optimizer: Adam lr: 0.003354162221602514
