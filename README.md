@@ -40,7 +40,8 @@ SGD может быть полезен, если данные огромны,
 ("dropout", 0.2, 0.5) ; ("lr", 1e-5, 1e-1, log=True)
 
 Вывод консоли:
-Study statistics:
+
+```Study statistics:
 
 • Number of finished trials: 47
 
@@ -59,6 +60,7 @@ Best trial:
   • optimizer: Adam
 
   • lr: 0.003354162221602514
+  ```
 
 # Задание №4
 
