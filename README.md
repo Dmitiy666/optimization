@@ -37,7 +37,6 @@ SGD может быть полезен, если данные огромны,
 Датасет FashionMnist был заменен на датасет CIFAR-10
 
 Вывод консоли:
-
 Study statistics: 
 Number of finished trials: 47 
 Number of pruned trials: 29 
