@@ -48,34 +48,36 @@ Best trial:
 
 # Задание №4
 
-Оптимизация модели с помощью библиотеки onnx.
+## Результаты работы Torch модели
 
-Необходимо конвертировать модель в onnx и сравнить производительность (скорость и точность) с model.pth.
+| Класс  | Точность (%) |
+|--------|--------------|
+| Plane  | 54.9         |
+| Car    | 33.0         |
+| Bird   | 20.4         |
+| Cat    | 27.8         |
+| Deer   | 38.9         |
+| Dog    | 45.4         |
+| Frog   | 56.1         |
+| Horse  | 73.7         |
+| Ship   | 62.3         |
+| Truck  | 78.6         |
 
-Результаты работы torch модели:
+**Время выполнения:** 0.4050 мс
 
-Accuracy for class: plane is 54.9 %
-Accuracy for class: car   is 33.0 %
-Accuracy for class: bird  is 20.4 %
-Accuracy for class: cat   is 27.8 %
-Accuracy for class: deer  is 38.9 %
-Accuracy for class: dog   is 45.4 %
-Accuracy for class: frog  is 56.1 %
-Accuracy for class: horse is 73.7 %
-Accuracy for class: ship  is 62.3 %
-Accuracy for class: truck is 78.6 %
-Time, ms:  0.4050048828125
+## Результаты работы ONNX модели
 
-Результат работы onnx модели:
+| Класс  | Точность (%) |
+|--------|--------------|
+| Plane  | 54.9         |
+| Car    | 33.0         |
+| Bird   | 20.4         |
+| Cat    | 27.8         |
+| Deer   | 38.9         |
+| Dog    | 45.4         |
+| Frog   | 56.1         |
+| Horse  | 73.7         |
+| Ship   | 62.3         |
+| Truck  | 78.6         |
 
-Accuracy for class: plane is 54.9 %
-Accuracy for class: car   is 33.0 %
-Accuracy for class: bird  is 20.4 %
-Accuracy for class: cat   is 27.8 %
-Accuracy for class: deer  is 38.9 %
-Accuracy for class: dog   is 45.4 %
-Accuracy for class: frog  is 56.1 %
-Accuracy for class: horse is 73.7 %
-Accuracy for class: ship  is 62.3 %
-Accuracy for class: truck is 78.6 %
-Time, ms:  0.43108396530151366
+**Время выполнения:** 0.4311 мс
