@@ -37,10 +37,10 @@ SGD может быть полезен, если данные огромны,
 Датасет FashionMnist был заменен на датасет CIFAR-10
 
 Вывод консоли:
-Study statistics: 
-Number of finished trials: 47 
-Number of pruned trials: 29 
-Number of complete trials: 18 
+    Study statistics: 
+    Number of finished trials: 47 
+    Number of pruned trials: 29 
+    Number of complete trials: 18 
 Best trial: 
-Value: 0.5453125 
-Params: dropout: 0 optimizer: Adam lr: 0.003354162221602514
+    Value: 0.5453125 
+    Params: dropout: 0 optimizer: Adam lr: 0.003354162221602514
